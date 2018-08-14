@@ -1,0 +1,32 @@
+ h1{
+  	 	color: magenta;
+  	 	text-align: center;
+  	 }
+        /* the dot indicates this is for a class classes can style multiple elements or things */
+  	 .pstyle{
+  	 	background: green;
+  	 }
+
+  	 .pstyle{
+  	 	background: yellow;
+  	 }
+
+  	 .pstyle{
+  	 	background: orange;
+
+  	 }
+  	 /* id's should be declared using # and should only be used one time in the html file*/
+  	 #trumptest{
+  	 	background-color: red
+  	 	color: white;
+  	 }
+
+
+  	 div p{
+  	 	border: 10px dotted pink;
+  	 	}
+
+      .pstyle, #trumptest. h1, p{
+        color: pink;
+        background-color: black;
+      }

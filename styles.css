@@ -1,0 +1,92 @@
+
+/*========================= HEADER =======================*/
+
+.main {
+	background-color: black;
+	height: 100px;
+	width: 100px;
+}
+
+.jumbo-blur{
+  position: relative;
+  height: 600px;
+  background-image: url("cherry_blossoms_blur.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.janiecelogo{
+  height: 380px;
+  width: 100%;
+  background-image: url("Janiecelogo-black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 25%;
+  margin-top: -50px;
+}
+
+/*========================= ABOUT ME =======================*/
+
+#about-me {
+	margin-top: 50px;
+}
+
+.contact-me{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.headshot {
+	width: 300px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.linebreak {
+	display: block;
+	margin: 20px auto;
+    width: 40%;
+}
+
+/*========================= PROJECTS =======================*/
+h3 {
+	text-align: center;
+}
+
+.projects {
+	margin-top: 10px;
+}
+/*========================= FOOTER =======================*/
+
+.fa-linkedin, .fa-facebook-square, .fa-github-square  {
+	color: white;
+}
+
+#footer {
+	display: flex; 
+	justify-content: center;
+}
+
+.page-footer {
+	background-color: #AF84A8;
+	color: white;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+}
+
+.social {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+

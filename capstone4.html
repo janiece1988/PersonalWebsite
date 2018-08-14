@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart!</title>
+</head>
+<body>
+	<h4>Shopping Cart</h4>
+
+       <script>
+	     var cart = [];
+       var item = function (name, price, count) {
+          this.name = name
+          this.price = price
+          this.count = count
+       
+       };
+        // array of items
+        // array of prices
+        // loop for arrays to print out the name and price of the items
+
+        // addItemToCart(name, price, count)
+
+        function addItemToCart(name, price, count){
+             for(var i in cart){
+              if (cart[i].name === name){
+                  cart[i].count ++;
+                  return;
+              }
+             }
+
+          var item = new Item (name, price, count);
+          cart.push(item);
+         }
+
+         addItemtoCart("banana", 1.02, 2);
+         addItemtoCart("Pear",  1.02, 2);
+         addItemtoCart("Apple", 1.03, 2);
+
+         console.log(cart);
+         console.log(cart[0]);
+         console.log(cart[0].name);
+
+
+          
+        // displayTheCart()  --> array of items
+        var array = listCart();
+        array[0].name = "Try Again no match!"
+        console.log(array);
+
+        function countCart(){
+          var totalCount = 0
+          for (var i in cart){
+            totalCount +=cart[i].count;
+
+          }
+          return totalCount;
+        }
+         console.log(countCart);
+
+
+        //totalTheCart()
+        function totalCart() {  //return total cost
+          var totalCost = 0;
+          for (var i in cart) {
+            totalCost += cart[i].price;
+
+          }
+            return totalCost;
+        }
+        //saveCart()
+          function listCart(){
+            return cart;
+          }
+            var a = ["A", "B", "C"];
+            var b = a.slice
+
+   				
+   </script>
+
+    <script>
+    	
+    </script>
+		
+ </body>
+</html>
